@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/forgot-password/static/css/main.a075d81e.css",
+    "main.js": "/forgot-password/static/js/main.5e8526ec.js",
+    "index.html": "/forgot-password/index.html",
+    "main.a075d81e.css.map": "/forgot-password/static/css/main.a075d81e.css.map",
+    "main.5e8526ec.js.map": "/forgot-password/static/js/main.5e8526ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a075d81e.css",
+    "static/js/main.5e8526ec.js"
+  ]
+}
