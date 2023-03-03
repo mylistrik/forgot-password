@@ -55,7 +55,7 @@ const ForgotPassword = () => {
       token: params.token,
     };
     axios
-      .put("https://mylistrikapp.herokuapp.com/api/v1/resetpassword", data)
+      .put("https://cerulean-clam-cape.cyclic.app/api/v1/resetpassword", data)
       .then((res) => {
         if (res) {
           setPassword("");
