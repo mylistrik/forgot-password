@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import ForgotPassword from "./Components/ForgotPassword";
 import { transitions, positions, Provider as AlertProvider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
@@ -21,12 +21,12 @@ const options = {
 
 ReactDOM.render(
   <AlertProvider template={AlertTemplate} {...options}>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route exact path="/" element={<App />} />
         <Route path="/resetpassword/:token" element={<ForgotPassword />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </AlertProvider>,
   document.getElementById("root")
 );
