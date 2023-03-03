@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/forgot-password/static/css/main.a075d81e.css",
-    "main.js": "/forgot-password/static/js/main.d614a5f2.js",
+    "main.js": "/forgot-password/static/js/main.f57b0c21.js",
     "index.html": "/forgot-password/index.html",
     "main.a075d81e.css.map": "/forgot-password/static/css/main.a075d81e.css.map",
-    "main.d614a5f2.js.map": "/forgot-password/static/js/main.d614a5f2.js.map"
+    "main.f57b0c21.js.map": "/forgot-password/static/js/main.f57b0c21.js.map"
   },
   "entrypoints": [
     "static/css/main.a075d81e.css",
-    "static/js/main.d614a5f2.js"
+    "static/js/main.f57b0c21.js"
   ]
 }
