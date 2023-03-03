@@ -24,7 +24,7 @@ ReactDOM.render(
     <HashRouter>
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path="/resetpassword/:token" element={<ForgotPassword />} />
+        <Route path="resetpassword/:token" element={<ForgotPassword />} />
       </Routes>
     </HashRouter>
   </AlertProvider>,
